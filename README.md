@@ -1,8 +1,9 @@
 # Automation to solve tryhackme lab rootme..
     lab link: https://tryhackme.com/room/rrootme
 ## Follow steps:
-    # installation..
+    # installation/initialize..
     wget https://github.com/TheGreenOfficial/thm_rootme_solver/raw/refs/heads/main/thm_rootme_solver_automation
+    chmod 777 thm_rootme_solver_automation
 
 ## Usage:
     # execute/exploit..
