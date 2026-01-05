@@ -7,3 +7,5 @@
 ## Usage:
     # execute/exploit..
     ./thm_rootme_solver_automation <lab_ip>
+
+<img width="882" height="567" alt="image" src="https://github.com/user-attachments/assets/fb5885e7-3490-4670-aafe-8f9eb870b0c4" />
