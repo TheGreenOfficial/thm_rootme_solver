@@ -1,4 +1,4 @@
-## Automation in c to solve tryhackme lab rootme:
+# Automation in c to solve tryhackme lab rootme:
     lab link: https://tryhackme.com/room/rrootme
 ## Build:
     # To build yourself making some changes or without use,
