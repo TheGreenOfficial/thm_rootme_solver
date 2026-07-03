@@ -12,4 +12,4 @@
     # execute/exploit..
     ./thm_rootme_solver_automation <lab_ip>
 
-**I freequently do these skid stuffs haha..**
+**I freequently do these skid stuffs haha.. but yeah its cool.. XD..**
